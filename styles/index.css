@@ -1,5 +1,5 @@
 img {
-    width: 80%;
+    width: 100%;
     display: block;
     margin: 0 auto;
 }
@@ -9,18 +9,50 @@ h1 {
     margin-bottom: 60px;
 }
 
+.details h2 {
+    margin-left: 46px;
+}
+
+h4 {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 83);
+}
+
+h5 {
+    text-align: center;
+    font-size: 16px;
+
+}
+
 footer {
     display: flex;
     justify-content: center;
     text-align: center;
+    background-color: beige;
 }
+
 
 footer p {
     padding: 0 25px;
 }
 
+li {
+    list-style: none;
+    padding: 5px;
+    font-size: 20px;
+}
+
+ul {
+    margin-bottom: 0;
+}
 .nav div {
-    background-color: rgb(176, 228, 223);
+    background-color: beige;
 }
 
 .column1 {
@@ -39,13 +71,14 @@ margin-right: 20px
 
 .column2 {
 	float: left;
-	width: 45%;
-	padding: 0 10px;
+	width: 35%;
+	padding-left: 40px;
+    margin-inline-start: 80px;
 }
 
-
 .row2 {
-    margin-top: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .row2:after {
 content: "";
@@ -59,4 +92,29 @@ margin-right: 20px
 	float: left;
 	width: 30%;
 	padding: 0 10px;
+}
+.details .column3  {
+    padding-bottom: 20px;
+}
+
+.details {
+    margin-left: 40px;
+}
+
+.column4 {
+    float: left;
+	width: 20%;
+	padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+.row4:after {
+content: "";
+clear: both;
+display: table;
+}
+.row4 {
+margin-left: 220px;
+ position: relative;
+    top: -35px;
 }
