@@ -1,0 +1,62 @@
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer p {
+    padding: 0 25px;
+}
+
+.nav div {
+    background-color: rgb(176, 228, 223);
+}
+
+.column1 {
+	float: left;
+	width: 23%;
+	padding: 0 10px;
+}
+
+.row1:after {
+content: "";
+clear: both;
+display: table;
+margin-left: 20px;
+margin-right: 20px
+}
+
+.column2 {
+	float: left;
+	width: 45%;
+	padding: 0 10px;
+}
+
+
+.row2 {
+    margin-top: 60px;
+}
+.row2:after {
+content: "";
+clear: both;
+display: table;
+margin-left: 20px;
+margin-right: 20px
+}
+
+.column3 {
+	float: left;
+	width: 30%;
+	padding: 0 10px;
+}
